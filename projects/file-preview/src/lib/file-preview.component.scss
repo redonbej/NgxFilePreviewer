@@ -6,7 +6,6 @@
   height: 100vh;
 }
 
-
 .nav-bar-container {
   width: 100%;
   height: auto;
@@ -63,4 +62,48 @@
     background: rgba(255,255,255, 0.25);
   }
 
+}
+
+.content-wrapper{
+  position: relative;
+  height: calc(100vh - 50px);
+  display: flex;
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    &:hover {
+      background-color: #4285f4;
+    }
+
+    i {
+      font-size: 27px;
+    }
+  }
+
+  .arrow-left {
+    left: 25px;
+  }
+
+  .arrow-right {
+    right: 25px;
+  }
+
+}
+
+.content {
+  margin: 0 auto;
+  width: 400px;
+  height: 750px;
+  background: red;
 }

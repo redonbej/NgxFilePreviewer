@@ -25,4 +25,14 @@ export class FilePreviewComponent implements OnInit {
   download() {
 
   }
+
+  moveLeft() {
+
+  }
+
+  moveRight() {
+
+  }
+
+
 }

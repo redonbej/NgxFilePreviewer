@@ -1,0 +1,42 @@
+<div class="wrapper">
+
+  <div class="nav-bar-container">
+    <div class="nav-bar">
+      <div class="left-items">
+
+        <div class="icon-wrapper">
+          <i class="material-icons" (click)="back()">keyboard_backspace</i>
+        </div>
+
+        <div >
+          some icon
+        </div>
+
+        <div class="file-name">
+          {{currentFile.name}}
+        </div>
+
+      </div>
+
+      <div class="right-items">
+
+        <div class="icon-wrapper" (click)="print()">
+          <i class="material-icons">print</i>
+        </div>
+
+        <div class="icon-wrapper" (click)="download()">
+          <i class="material-icons">archive</i>
+        </div>
+
+        <div class="icon-wrapper">
+          <i class="material-icons">more_vert</i>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
